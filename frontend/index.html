@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <title>Vem De Net</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="location">
+      <span>📍 PE - RECIFE</span>
+    </div>
+    <div class="client-area">
+      <a href="#"><span>👥 Área do cliente</span></a>
+    </div>
+  </div>
+  <div class="navbar-content">
+    <div class="logo">
+      <img src="./images/logo-vem-de-net.png" alt="Brisanet">
+    </div>
+    <div class="buttons">
+      <button class="chat-online">Chat On-line</button>
+      <button class="whatsapp"><a href="https://wa.link/ynjp1m" target="_blank">WhatsApp</a></button>
+    </div>
+  </div>
+  <div class="header-banner">
+    <img src="./images/beach.jpg" alt="Banner" class="background-image">
+    <div class="cards-container">
+      <div class="card">
+        <div class="content">
+          <h3>INTERNET</h3>
+          <h2>700 MEGA</h2>
+          <p>Benefícios</p>
+          <div class="benefits">
+            <img src="./images/logo-vem-de-net.png" alt="Benefício">
+          </div>
+          <p>Instalação Inclusa</p>
+          <p>Fibra Óptica</p>
+          <a href="#" class="conditions">*Confira as condições</a>
+          <div class="price">
+            <span class="currency">POR:</span>
+            <span class="amount">R$ 94,90</span>
+            <span class="per-month">/mês*</span>
+          </div>
+        </div>
+        <a href="#" class="cta">Contratar Agora</a>
+      </div>
+      <div class="card">
+        <div class="header best-offer">MELHOR OFERTA</div>
+        <div class="content">
+          <h3>INTERNET</h3>
+          <h2>500 MEGA</h2>
+          <p>Benefícios</p>
+          <div class="benefits">
+            <img src="./images/logo-vem-de-net.png" alt="Benefício">
+          </div>
+          <p>Instalação Inclusa</p>
+          <p>+GloboPlay</p>
+          <a href="#" class="conditions">*Confira as condições</a>
+          <div class="price">
+            <span class="currency">POR:</span>
+            <span class="amount">R$ 99,90</span>
+            <span class="per-month">/mês*</span>
+          </div>
+        </div>
+        <a href="#" class="cta">Contratar Agora</a>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h3>INTERNET</h3>
+          <h2>500 MEGA</h2>
+          <p>Benefícios</p>
+          <div class="benefits">
+            <img src="./images/logo-vem-de-net.png" alt="Benefício">
+          </div>
+          <p>Instalação Inclusa</p>
+          <p>+Paramount</p>
+          <a href="#" class="conditions">*Confira as condições</a>
+          <div class="price">
+            <span class="currency">POR:</span>
+            <span class="amount">R$ 109,90</span>
+            <span class="per-month">/mês*</span>
+          </div>
+        </div>
+        <a href="#" class="cta">Contratar Agora</a>
+      </div>
+    </div>
+  </div>
+  <div class="floating-button" onclick="toggleChat()">
+    <a href="javascript:void(0)" class="button"><i class="fas fa-comment"></i></a>
+  </div>
+  <div id="chat-box" class="chat-box">
+    <div class="chat-header">
+      <span>Chat</span>
+      <button onclick="toggleChat()">✖</button>
+    </div>
+    <div class="chat-body" id="chat-body">
+    </div>
+    <div class="chat-footer">
+      <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="reserved">
+      <span>© 2024 Vem de Net</span>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
